@@ -1,0 +1,67 @@
+*{
+  
+}
+/* The * selector is universal and will apply settings to everything. */
+
+body {
+  background-color: rgb(27,07,96);
+  color: rgb(250,173,69);
+  font-family: Courier, Monospace;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  padding: 20% 20% 0% 20%;
+}
+
+header img {  
+  width: 100%;
+  padding-top: 20%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a:first-child {
+  border-left: thin solid white;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: thin solid white;
+}
+
+nav li a:active {
+  background-color: rgb(100,230,125);
+}
+
+main, section, article {
+  padding: 5vw;
+  font-size: 3vw;
+}
+
+h2 {
+  padding-top: 20%;
+}
+
+p {
+  text-align: justify;
+}
